@@ -1,0 +1,331 @@
+body{
+  background-color: rgba(240, 240, 240, 0.507);
+}
+nav{
+  padding: 8px 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.25rem;
+  margin: 0px auto;
+}
+
+                                        /* toggle off class */
+
+.on{
+  margin: 0 auto;
+  width: 1200px;
+  height: 48px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap:2rem;
+  line-height: 1.25rem;
+}
+
+                                        /* Toggled class */
+.off{
+  display:flex ;
+  flex-direction: column;
+  gap:1rem;
+  align-items: start;
+  padding-left: 2rem;
+}
+
+.nav-item{
+  color: #5c626d;
+}
+button.nav-item{
+  padding: 8px 16px;
+  background-color: #0f766e;
+  border-radius: 5px;
+  color:white;
+  border: 0px;
+  line-height: 1.25rem;
+
+}
+/* Icon */
+span.nav-item{
+  margin-right: auto;
+}
+
+.nav-item.icon-text{
+  font-family: "Ledger", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  }
+
+
+
+.odin {
+    vertical-align: middle; /* Align the image vertically in the middle of the line */
+    width: 48px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add some space between the image and text */
+}
+
+.icon-text {
+    color: #5c626d; /* Text color */
+    font-size: 20px; /* Font size */
+    vertical-align: middle; /* Align the text vertically in the middle of the line */
+    font-weight: 600;
+}
+@media screen and (max-width: 1220px) {
+  /* CSS rules to apply when the screen width is 600px or less */
+  .Navbar{
+    margin: 0 auto;
+    width: auto;
+  }
+}
+@media screen and (max-width: 920px) {
+  
+.icon-text{
+  display: none;
+}
+}
+@media screen and (max-width: 750px) {
+  
+  .icon-text{
+    display: inline;
+  }
+  }
+
+                                      /* second part */
+
+.intro{
+  margin : 0 auto;
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 3.1253em;
+  word-spacing: 0px;
+  color: #303238;
+  padding: 112px 2rem 10px;
+
+}
+.intro-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.intro p{
+  margin: 0;
+}
+.intro p span {
+  color: #a9792b;;
+}
+.intro .small-desc{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: rgb(107 114 128);
+  font-weight:300;
+  max-width:576px;
+  margin: 20px 0px 30px;
+  text-align: center;
+}
+
+
+
+.btn {
+  background-color: #92ba44;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+
+.btn:hover {
+  background-color:#e1aa52;
+  color: white;
+}
+
+  @media screen and (max-width: 620px) {
+  
+    
+    .intro{
+      font-size: 36px;
+      font-weight: 500;
+    }
+    .intro .small-desc{
+      font-size: 20px;
+      
+    }
+    }
+
+                                /* background */
+.bck-grnd img{
+  width: 100%;
+  margin: 30px 0px;
+}
+
+                                /* working */
+.working-container{
+  text-align: center;
+  font-family: "inter", serif;
+  padding: 50px 2rem 10px;
+}             
+.how-it-works{
+  max-width: 768px;
+  margin: auto;
+  margin-bottom: 48px  ;
+}       
+.how-it-works h1{
+
+  font-weight: 500;
+}            
+.how-it-works p{
+  font-size: 18px;
+  color: #38393bba;
+  line-height: 1.8rem;
+}
+
+                                /* features */
+.features{
+  display: flex;
+  max-width: 1024px;
+  margin:auto;
+  flex-wrap: wrap;
+}         
+.feature{
+  padding: 20px;
+  flex: 1;
+}      
+.feature img{
+  height: 10em;
+  border-radius: 8px;
+  margin: 5px 0;
+}       
+.feature h2{
+  font-weight: 500;
+  color: #303238;
+}   
+.feature p{
+  font-weight: 500;
+  color: #41434a8e;
+  font-size: 16px;
+  line-height: 1.5rem;
+}          
+                        /* container */
+.course-section{
+  text-align: center;
+  font-family: "inter", serif;
+  background-color:rgba(240, 240, 240, 0.756) ;
+  padding: 50px 30px 100px;
+}                        
+.course-section h1{
+  font-weight: 500;
+  color: #32353dee;
+}
+.course-section button{
+  padding: 10px 20px;
+  margin-top: 40px;
+  border-radius: 7px;
+  font-family: "inter",serif ;
+  font-size: 17px;
+  background-color: #d29129b6;
+  color: white;
+}
+.course-section button:hover{
+  background-color:#d29129;
+  
+}
+.course-container{
+  margin: auto;
+  padding: 0px 50px;
+  display: flex;
+  max-width: 1020px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.CourseCard{
+  text-align: center;
+  padding : 24px 40px;
+  margin: 16px;
+  background-color: white;
+  max-width: 164px;
+  border-radius: 9px;
+}
+.CourseCard img{
+  width: 10rem;
+}
+.CourseCard h2{
+  font-weight: 500;
+  color:#303238ec;
+  margin: 0;
+  margin-top: 15px;
+}
+
+                                  /* Reviews */
+.section-ss{
+  margin: 2rem;
+  padding: 5em auto;
+  font-family: "inter", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+.SuccessStories{
+  display: flex ;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 1150px;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.story{
+  flex:1 1 42%;
+  padding: 0px 1rem;
+}
+.story h4{
+  display: inline;
+  color: #303238;
+  margin-left: 10px;
+  font-weight: 500;
+}
+.story p{
+  letter-spacing: 0.8px;
+  color: #303238ef;
+  line-height: 1.5rem;
+}
+.section-ss a{
+  color: #303238ef;
+  text-decoration: underline;
+  font-size: 17px;
+}
+.SupportUs{
+  margin: auto;
+  margin-top: 80px;
+  text-align: center;
+  max-width: 512px;
+}
+.SupportUs p{
+  font-size: 14px;
+  color: #303238bd;
+}
+.SupportUs .btn1{
+  background-color: white;
+  color: black;
+  margin-right: 4px;
+}
+.SupportUs .btn2{
+  margin-left: 4px;
+  background-color: rgb(15, 118, 110);
+
+}
+.btns{
+  padding: 8px 16px;
+  border-radius: 7px;
+  border: 1px  solid rgba(128, 128, 128, 0.242);
+  font-family: "inter",serif ;
+  font-size: 17px;
+  color: white;
+}
